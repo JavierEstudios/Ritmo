@@ -1,14 +1,14 @@
 import json
 import requests
 
-#headers = {'Accept': 'application/json'}
-#url = ('https://github.com/JavierEstudios/ritmo/blob/ee5e98cb912da4fa1b3738b87477ecb0486b7ba0/canciones.json')
-#file = requests.get(url)
-#data = file.json()
+headers = {'Accept': 'application/json'}
+url = ('https://github.com/JavierEstudios/ritmo/blob/5cd4087de1440f4b9208647a2eda4980c7a715a3/canciones.json')
+file = requests.get(url, headers)
+data = file.json()
 
-#print(data)
+print(data)
 
-file = open("canciones.json")
+""" file = open("canciones.json")
 data = json.load(file)
 
 ## Valores predeterminados
@@ -50,9 +50,6 @@ while mincc <= maxcc:
         i = i+1
     if mincc < 8:
         mincc = mincc+0.5
-    else: mincc = round(mincc+0.1, 1)
+    else: mincc = round(mincc+0.1, 1) """
 
-#for canciones in data:
-#    print(data['canciones'])
-
-##file.close()
+file.close()
