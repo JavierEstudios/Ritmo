@@ -637,11 +637,11 @@
           "pst": "1",
           "prs": "9",
           "ftr": "8",
-          "byd": "10",
+          "byd": null,
           "pst_cc": 1.5,
           "prs_cc": 9.5,
           "ftr_cc": 9.1,
-          "byd_cc": 10.5,
+          "byd_cc": null,
           "lado": "Conflict",
           "length": "0:02:15"
        },
