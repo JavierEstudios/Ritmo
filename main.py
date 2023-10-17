@@ -7,8 +7,8 @@ file = requests.get(url, headers)
 data = file.json()
 
 print(data)
-
-""" file = open("canciones.json")
+""" 
+file = open("canciones.json")
 data = json.load(file)
 
 ## Valores predeterminados
@@ -46,10 +46,10 @@ while mincc <= maxcc:
     i = 0
     for canciones in data['canciones']:
         if data['canciones'][i][cc] == mincc:
-            print ("Nombre: ",data['canciones'][i]['nombre'],", pack: ",data['canciones'][i]['pack'],", dificultad: ",data['canciones'][i][level],", bando: ",data['canciones'][i]['lado'],", duración: ",data['canciones'][i]['length'])
+            print ("Nombre: ",data['canciones'][i]['nombre'],", pack: ",data['canciones'][i]['pack'],", colección: ",data['canciones'][i]['col'],", dificultad: ",data['canciones'][i][level],", bando: ",data['canciones'][i]['lado'],", duración: ",data['canciones'][i]['length'])
         i = i+1
     if mincc < 8:
         mincc = mincc+0.5
-    else: mincc = round(mincc+0.1, 1) """
+    else: mincc = round(mincc+0.1, 1)"""
 
 file.close()
