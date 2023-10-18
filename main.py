@@ -39,8 +39,15 @@ while mincc <= maxcc:
     i = 0
     for canciones in data['canciones']:
         if data['canciones'][i][cc] == mincc:
-            print ("Nombre: {c}, pack: ",data['canciones'][i]['pack'],", colección: ",data['canciones'][i]['col'],", dificultad: ",data['canciones'][i][level],", bando: ",data['canciones'][i]['lado'],", duración: ",data['canciones'][i]['length'].
-                   format(c = data['canciones'][i]['nombre']))
+            cancion = data['canciones'][i]['nombre']
+            pack = data['canciones'][i]['pack']
+            coleccion = data['canciones'][i]['col']
+            if coleccion == None: coleccion = 'Ninguna'
+            nivel = data['canciones'][i][level]
+            bando = data['canciones'][i]['lado']
+            duracion = data['canciones'][i]['length']
+            print ("Nombre: {0:43s} Pack: {1:22s} Colección: {2:20s} Dificultad: {3:3s} Bando: {4:9s} Duración: {5:7s}"
+                   .format(cancion, pack, coleccion, nivel, bando, duracion))
         i = i+1
     if mincc < 8:
         mincc = mincc+0.5
