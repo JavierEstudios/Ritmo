@@ -1,15 +1,16 @@
 import requests
 
-url = ('https://raw.githubusercontent.com/JavierEstudios/ritmo/main/canciones.json')
-file = requests.get(url)
+## Cojer el json de internet
+file = requests.get('https://raw.githubusercontent.com/JavierEstudios/ritmo/main/canciones.json')
 data = file.json()
 
-## Valores predeterminados
+## Valores predeterminados para que python no se queje
 cc = 'prs_cc'
 mincc = 1
 maxcc = 12
 level = 'prs'
 
+## Seleccionar la dificultad en la que se recorren las canciones
 selectDone = False
 dificultad = input("Introduzca la dificultad en la que quiere ordenar las canciones (pasado, presente, futuro o beyond): ")
 while selectDone == False:
@@ -34,7 +35,7 @@ while selectDone == False:
         dificultad = input("Input no reconocido, vuelva a introducurlo: ")
         selectDone = False
 
-
+## Recorrer las canciones
 while mincc <= maxcc:
     i = 0
     for canciones in data['canciones']:
