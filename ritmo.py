@@ -80,6 +80,7 @@ def todasLasCanciones(cc, mincc, maxcc, level):
         else: mincc = round(mincc+0.1, 1)
 
 def cancionesPorPack(cc, mincc, maxcc, level, pack):
+    ## Detectar una combinacion de pack y dificultad que no muestre nada
     recorrer = True
     if level == 'byd':
         packsSindBYD = ["Sunset Radiance","Extend Archive","Ephemeral Page","Esoteric Order","Divided Heart","World Extend","Lasting Eden"]
