@@ -1547,7 +1547,7 @@
         },
         {
             "nombre": "Beside You",
-            "pack": "The Journey Onwards",
+            "pack": "Ephemeral Page",
             "col": "Memories of Dreams",
             "pst": "2",
             "prs": "6",
@@ -1562,7 +1562,7 @@
         },
         {
             "nombre": "Heart Jackin'",
-            "pack": "The Journey Onwards",
+            "pack": "Ephemeral Page",
             "col": "Memories of Dreams",
             "pst": "3",
             "prs": "5",
@@ -1577,7 +1577,7 @@
         },
         {
             "nombre": "To: Alice Liddell",
-            "pack": "The Journey Onwards",
+            "pack": "Ephemeral Page",
             "col": "Memories of Dreams",
             "pst": "4",
             "prs": "7",
@@ -1667,7 +1667,7 @@
         },
         {
             "nombre": "Coastal Highway",
-            "pack": "Pale Tapestry",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "3",
             "prs": "6",
@@ -1697,7 +1697,7 @@
         },
         {
             "nombre": "ΟΔΥΣΣΕΙΑ",
-            "pack": "Pale Tapestry",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "4",
             "prs": "7",
@@ -1742,7 +1742,7 @@
         },
         {
             "nombre": "Overwhelm",
-            "pack": "Pale Tapestry",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "5",
             "prs": "8",
@@ -1847,7 +1847,7 @@
         },
         {
             "nombre": "Small Cloud Sugar Candy",
-            "pack": "Light of Salvation",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "3",
             "prs": "6",
@@ -1862,7 +1862,7 @@
         },
         {
             "nombre": "AlterAle",
-            "pack": "Light of Salvation",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "3",
             "prs": "6",
@@ -1892,7 +1892,7 @@
         },
         {
             "nombre": "Divine Light of Myriad",
-            "pack": "Light of Salvation",
+            "pack": "Esoteric Order",
             "col": "Memories of Myth",
             "pst": "4",
             "prs": "7",
@@ -1952,7 +1952,7 @@
         },
         {
             "nombre": "Cosmica",
-            "pack": "Shared Time",
+            "pack": "Binary Enfold",
             "col": null,
             "pst": "2",
             "prs": "5",
@@ -1967,7 +1967,7 @@
         },
         {
             "nombre": "Ascent",
-            "pack": "Shared Time",
+            "pack": "Binary Enfold",
             "col": null,
             "pst": "3",
             "prs": "6",
@@ -1982,7 +1982,7 @@
         },
         {
             "nombre": "Live Fast Die Young",
-            "pack": "Shared Time",
+            "pack": "Binary Enfold",
             "col": null,
             "pst": "4",
             "prs": "8",
@@ -2687,7 +2687,7 @@
         },
         {
             "nombre": "Primeval Texture",
-            "pack": "Lasting Eden Chapter 2",
+            "pack": "Lasting Eden",
             "col": null,
             "pst": "3",
             "prs": "6",
@@ -2702,7 +2702,7 @@
         },
         {
             "nombre": "Technicolour",
-            "pack": "Lasting Eden Chapter 2",
+            "pack": "Lasting Eden",
             "col": null,
             "pst": "3",
             "prs": "7",
@@ -2717,7 +2717,7 @@
         },
         {
             "nombre": "Logos",
-            "pack": "Lasting Eden Chapter 2",
+            "pack": "Lasting Eden",
             "col": null,
             "pst": "4",
             "prs": "7",
@@ -2732,7 +2732,7 @@
         },
         {
             "nombre": "Ego Eimi",
-            "pack": "Lasting Eden Chapter 2",
+            "pack": "Lasting Eden",
             "col": null,
             "pst": "5",
             "prs": "8",
@@ -2747,7 +2747,7 @@
         },
         {
             "nombre": "Arghena",
-            "pack": "Lasting Eden Chapter 2",
+            "pack": "Lasting Eden",
             "col": null,
             "pst": "6",
             "prs": "9",
