@@ -5,7 +5,7 @@ Enlace al video mostrando su funcionamiento.
 https://drive.google.com/file/d/1mlDfgiHhrsuLh0lGMi_L4OcDkbAXTXxX/view?usp=share_link
 
 # Instalación
-Descargar el archivo ritmo.py de este repositorio.
+Descargar el archivo ritmo.py que se encuentra en Versión 1.0.
 
 # Prerequisitos
 Este programa de python3 utiliza la librería requests. Hay que instalarla por separado, mediante pip install, para que el programa funcione. El comando es:
